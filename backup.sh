@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MACHINE_NAME=y580
+DEVICE_NAME=y580
 BACKUP_FRESHNESS=4M2W
 BACKUP_LOCATION=file:///media/czers/EXTDATA/Backups
 
@@ -12,8 +12,8 @@ function backup () {
     local symbolic_name=$2
 
     duplicity --full-if-older-than $BACKUP_FRESHNESS \
-        --name "$MACHINE_NAME-$symbolic_name" $dir_name \
-        $BACKUP_LOCATION/$MACHINE_NAME/$symbolic_name
+        --name "$DEVICE_NAME-$symbolic_name" $dir_name \
+        $BACKUP_LOCATION/$DEVICE_NAME/$symbolic_name
 }
 
 backup /mnt/SDATA/Dokumenty Dokumenty
