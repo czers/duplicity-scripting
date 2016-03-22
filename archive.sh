@@ -1,4 +1,5 @@
 #!/bin/bash
+
 rsync /media/czers/EXTDATA/Backups/ teapot@teapot.czers.pl:/fileshare/backups \
 	--verbose \
 	--stats \
