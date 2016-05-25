@@ -27,4 +27,5 @@ backup /mnt/SDATA/Muzyka Muzyka
 backup /mnt/SDATA/Manga Manga
 backup /mnt/SDATA/Obrazki Obrazki
 backup "/mnt/VDATA/Muzyka CD" "Muzyka CD"
+backup /mnt/SDATA/Misc Misc
 
